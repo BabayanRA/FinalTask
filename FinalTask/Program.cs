@@ -19,3 +19,16 @@ void PrintArray (string[] array)
         Console.Write(array[k]+ " ");
     }
 }
+void NewArray (string[] array1, string[] array2)
+{
+    int j = 0;
+    for (int i = 0; i < array1.GetLength(0); i++)
+    {   
+        if (array1[i].Length <= 3)
+        {
+            array2[j] = array1[i];
+            j++;
+        }    
+    }
+}
+
