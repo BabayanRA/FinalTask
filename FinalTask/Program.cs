@@ -11,3 +11,11 @@
 [“Russia”, “Denmark”, “Kazan”] → []
 
 */
+void PrintArray (string[] array)
+{
+
+    for (int k = 0; k < array.GetLength(0); k++)
+    {
+        Console.Write(array[k]+ " ");
+    }
+}
