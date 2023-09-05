@@ -19,6 +19,7 @@ void PrintArray (string[] array)
         Console.Write(array[k]+ " ");
     }
 }
+
 void NewArray (string[] array1, string[] array2)
 {
     int j = 0;
@@ -31,4 +32,10 @@ void NewArray (string[] array1, string[] array2)
         }    
     }
 }
+
+
+string[] a = {"Hello", "2", "world", ":-)"};
+string[] b = new string[a.GetLength(0)];
+NewArray(a,b);
+PrintArray(b);
 
